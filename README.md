@@ -1,0 +1,1 @@
+postgre tutorial: https://www.youtube.com/watch?v=_Mun4eOOf2Q
