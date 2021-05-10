@@ -18,6 +18,8 @@
   "homepage": "https://github.com/felixH3r/WaterMe#readme",
   "dependencies": {
     "axios": "^0.21.1",
-    "express": "^4.17.1"
+    "bootstrap": "^5.0.0",
+    "express": "^4.17.1",
+    "ng-bootstrap": "^1.6.3"
   }
 }
