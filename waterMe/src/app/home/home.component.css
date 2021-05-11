@@ -1,8 +1,0 @@
-.bg {
-  background: url("../../assets/home_bg.png")no-repeat left top fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  background-size: cover;
-  -o-background-size: cover;
-  height: 100%;
-}
