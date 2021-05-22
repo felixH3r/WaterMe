@@ -2,15 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="025d9323-f342-4f03-90de-b8c83de66852" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/waterMe/src/app/Mock.plants.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/waterMe/src/app/Plants.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/waterMe/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/waterMe/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/waterMe/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/waterMe/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/waterMe/src/app/DashboardComponent/dashboard.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/waterMe/src/app/DashboardComponent/dashboard.component.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/waterMe/src/app/DashboardComponent/dashboard.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/waterMe/src/app/DashboardComponent/dashboard.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/waterMe/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/waterMe/src/app/app.module.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/waterMe/src/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/waterMe/src/styles.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,7 +52,8 @@
       <workItem from="1621066572390" duration="627000" />
       <workItem from="1621167842564" duration="2174000" />
       <workItem from="1621241924031" duration="477000" />
-      <workItem from="1621256811622" duration="7707000" />
+      <workItem from="1621256811622" duration="7831000" />
+      <workItem from="1621697389194" duration="266000" />
     </task>
     <task id="LOCAL-00001" summary="Homepage 1">
       <created>1620666297876</created>
