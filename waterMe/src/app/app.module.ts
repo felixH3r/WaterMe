@@ -1,18 +1,25 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
-import { AppRoutingModule } from './app-routing.module';
+import { AppRoutingModule, routingComponents } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { WaterMeAppComponent } from './water-me-app/water-me-app.component';
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+import { PlantsListingComponent } from './DashboardComponent/plants-listing/plants-listing.component';
+import { SidebarComponentComponent } from './DashboardComponent/sidebar-component/sidebar-component.component';
+
+
 
 @NgModule({
   declarations: [
     AppComponent,
-    WaterMeAppComponent
+    routingComponents,
+    PlantsListingComponent,
+    SidebarComponentComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    NgbModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -1,0 +1,40 @@
+.bg {
+  background: url("../../assets/home_bg.png")no-repeat left top fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  height: 100%;
+}
+
+.button {
+  background-color: #84EF94; /* Green */
+  border: none;
+  border-radius: 40px;
+  color: white;
+  padding: 10px 50px;
+  margin-right: 20px;
+  margin-top: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+h1 {
+  font-family: "Helvetica Neue";
+  font-weight: bold;
+  font-size: 75px;
+  color: #748A9D;
+}
+
+h2 {
+  font-family: "Helvetica Neue";
+  font-weight: lighter;
+  font-size: 30px;
+  color: #748A9D;
+  padding-left: 10px;
+}
+
+
+
