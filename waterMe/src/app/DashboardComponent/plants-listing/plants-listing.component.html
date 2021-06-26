@@ -3,7 +3,7 @@
   <div class="container-fluid">
     <div class="row">
       <div class="col">
-        <img src="{{plant.img}}">
+        <img src="{{plant.picture}}">
       </div>
       <div class="col-9">
         <h2 class="plants-h2">{{plant.name}}</h2>
@@ -13,7 +13,7 @@
           </div>
           <div class="col-8">
             <div class="progress">
-              <div class="progress-bar" role="progressbar" style="width: {{plant.hydration}}%" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100">{{plant.hydration}}%</div>
+              <div class="progress-bar" role="progressbar" style="width: {{plant.wasserstand}}%" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100">{{plant.wasserstand}}%</div>
             </div>
           </div>
         </div>
@@ -23,7 +23,7 @@
             <h6 class="plants-h6 ">Gegossen am:</h6>
           </div>
           <div class="col-8">
-            <h6 class="plants-h6">{{plant.watered | date: 'YYYY - MM - dd'}}</h6>
+            <h6 class="plants-h6">{{plant.gegossen_am}}</h6>
           </div>
         </div>
 
@@ -32,14 +32,15 @@
             <h6 class="plants-h6 ">Gießen bis:</h6>
           </div>
           <div class="col-8">
-            <h6 class="plants-h6">{{plant.waterUntil | date: 'YYYY - MM - dd'}}</h6>
+            <h6 class="plants-h6" *ngIf="plant.giessen_in_stunden == '0' && plant.giessen_in_tagen == '0'">Zeit wird berechnet</h6>
+            <h6 class="plants-h6" *ngIf="plant.giessen_in_stunden == null || plant.giessen_in_tagen == null">Zeit wird berechnet</h6>
+            <h6 class="plants-h6" *ngIf="(plant.giessen_in_stunden != '0' || plant.giessen_in_tagen != '0') && plant.giessen_in_stunden != null && plant.giessen_in_tagen != null ">{{plant.giessen_in_tagen + ' Tage und ' + plant.giessen_in_stunden + ' Stunden'}}</h6>
           </div>
         </div>
       </div>
     </div>
   </div>
-
 </div>
-<!--Content rows-->
+
 
 
