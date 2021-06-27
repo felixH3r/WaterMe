@@ -17,7 +17,7 @@ class PlantsDAO {
   }
 
   async getPlantData(id) {
-    const [last_entry] = await db('sensordata').select('waterlevel', 'ts')
+    const [last_entry] = await db('sensordata').select('waterlevel','ts')
       .where('id', id)
       .orderBy('ts', 'desc')
       .limit(1);
