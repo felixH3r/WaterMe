@@ -4,7 +4,7 @@ import {HttpClient} from '@angular/common/http';
 import { Injectable } from '@angular/core';
 import {Observable, of, throwError} from 'rxjs';
 import {catchError, map, retry} from 'rxjs/operators';
-import {HttpClientJsonpModule} from "@angular/common/http";
+import {HttpClientJsonpModule} from '@angular/common/http';
 
 @Component({
   selector: 'app-plants-listing',
@@ -25,9 +25,10 @@ export class PlantsListingComponent implements OnInit {
   }
 
   ngOnInit(): void {
+    // get method for plant data
     this.getPlants().subscribe(data => {
       this.plants = data;
-      for (var plant of this.plants) {
+      for (let plant of this.plants) {
         plant.wasserstand  = Math.trunc(plant.wasserstand);
       }
     });
